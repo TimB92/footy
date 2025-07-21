@@ -19,6 +19,7 @@ def main():
     result = train(preprocessed.train, preprocessed.mappings)
     predictions = predict(result.trace, preprocessed.test)
     predictions.to_csv(args.output_path)
-    
+
+
 if __name__ == "__main__":
     main()

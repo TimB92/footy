@@ -41,9 +41,10 @@ class Dataset:
 
 
 def preprocess(data: pd.DataFrame) -> Dataset:
-    data = data[data["year"] > _TRAIN_START_YEAR].copy()
+    data.dropna(inplace=True)
     data["date"] = pd.to_datetime(data["date"])
     data["year"] = data["date"].dt.year
+    data = data[data["year"] > _TRAIN_START_YEAR].copy()
     data["year_bucket"] = data["year"] // _YEAR_BUCKET_SIZE
 
     teams = sorted(set(data["home_team"]).union(set(data["away_team"])))
@@ -67,15 +68,13 @@ def create_mappings(
     team_mapping = {team: i for i, team in enumerate(teams)}
     tournament_mapping = {t: i for i, t in enumerate(tournaments)}
     year_mapping = {bucket: i for i, bucket in enumerate(years)}
-    return Mappings(
-        team=team_mapping, tournament=tournament_mapping, year=year_mapping
-    )
+    return Mappings(team=team_mapping, tournament=tournament_mapping, year=year_mapping)
 
 
-def compute_recent_form(df, window=5):
+def compute_recent_form(data: pd.DataFrame, window=5) -> pd.DataFrame:
     team_results = defaultdict(list)
     recent_win_rate = []
-    for _, row in df.iterrows():
+    for _, row in data.iterrows():
         h, a = row["home_team"], row["away_team"]
         h_id, a_id = row["home_team_enc"], row["away_team_enc"]
         h_results = team_results[h_id][-window:]
@@ -89,8 +88,8 @@ def compute_recent_form(df, window=5):
         team_results[h_id].append(1 if result == 1 else 0)
         team_results[a_id].append(1 if result == -1 else 0)
 
-    df["home_form"], df["away_form"] = zip(*recent_win_rate)
-    return df
+    data["home_form"], data["away_form"] = zip(*recent_win_rate)
+    return data
 
 
 def create_train_and_test_set(data: pd.DataFrame) -> Union[TeamData, TeamData]:
