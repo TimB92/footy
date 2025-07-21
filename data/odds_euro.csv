@@ -1,0 +1,52 @@
+,date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,year,pred,h_odd,d_odd,a_odd
+47280,2024-06-14,Germany,Scotland,5.0,1.0,UEFA Euro,Munich,Germany,False,2024,h,1.31,5.83,10.15
+47283,2024-06-15,Hungary,Switzerland,1.0,3.0,UEFA Euro,Cologne,Germany,True,2024,d,3.90,3.13,2.16
+47284,2024-06-15,Spain,Croatia,3.0,0.0,UEFA Euro,Berlin,Germany,True,2024,h,1.94,3.45,2.16
+47285,2024-06-15,Italy,Albania,2.0,1.0,UEFA Euro,Dortmund,Germany,True,2024,h,1.36,4.97,10.63
+47289,2024-06-16,Slovenia,Denmark,1.0,1.0,UEFA Euro,Stuttgart,Germany,True,2024,a,5.75,3.63,1.69
+47290,2024-06-16,Serbia,England,0.0,1.0,UEFA Euro,Gelsenkirchen,Germany,True,2024,a,6.90,4.45,1.50
+47291,2024-06-16,Poland,Netherlands,1.0,2.0,UEFA Euro,Hamburg,Germany,True,2024,a,6.82,4.35,1.51
+47295,2024-06-17,Austria,France,0.0,1.0,UEFA Euro,Düsseldorf,Germany,True,2024,a,6.06,4.28, 1.57
+47296,2024-06-17,Romania,Ukraine,3.0,0.0,UEFA Euro,Munich,Germany,True,2024,a,4.77,3.55,1.84
+47297,2024-06-17,Belgium,Slovakia,0.0,1.0,UEFA Euro,Frankfurt,Germany,True,2024,h,1.49,4.43,6.86
+47298,2024-06-18,Turkey,Georgia,3.0,1.0,UEFA Euro,Dortmund,Germany,True,2024,d,1.62,3.96,5.79
+47299,2024-06-18,Portugal,Czech Republic,2.0,1.0,UEFA Euro,Leipzig,Germany,True,2024,h,1.50,4.39,6.74
+47301,2024-06-19,Germany,Hungary,2.0,0.0,UEFA Euro,Stuttgart,Germany,False,2024,d,1.26,6.44,11.18
+47302,2024-06-19,Scotland,Switzerland,1.0,1.0,UEFA Euro,Cologne,Germany,True,2024,d,4.45,3.34,1.94
+47303,2024-06-19,Croatia,Albania,2.0,2.0,UEFA Euro,Hamburg,Germany,True,2024,h,1.45,4.47,7.74
+47306,2024-06-20,Spain,Italy,1.0,0.0,UEFA Euro,Gelsenkirchen,Germany,True,2024,h,2.22,3.12,3.77
+47307,2024-06-20,Slovenia,Serbia,1.0,1.0,UEFA Euro,Munich,Germany,True,2024,d,5.59,3.72,1.69
+47308,2024-06-20,Denmark,England,1.0,1.0,UEFA Euro,Frankfurt,Germany,True,2024,a,5.50,3.54,1.75
+47310,2024-06-21,Poland,Austria,1.0,3.0,UEFA Euro,Berlin,Germany,True,2024,a,4.08,3.36,2.03
+47311,2024-06-21,Netherlands,France,0.0,0.0,UEFA Euro,Leipzig,Germany,True,2024,d,3.16,3.11,2.51
+47312,2024-06-21,Slovakia,Ukraine,1.0,2.0,UEFA Euro,Düsseldorf,Germany,True,2024,a,3.34,3.31,2.30
+47315,2024-06-22,Belgium,Romania,2.0,0.0,UEFA Euro,Cologne,Germany,True,2024,h,1.38,5.07,8.40
+47316,2024-06-22,Georgia,Czech Republic,1.0,1.0,UEFA Euro,Hamburg,Germany,True,2024,d,4.55,3.90,1.77
+47317,2024-06-22,Turkey,Portugal,0.0,3.0,UEFA Euro,Dortmund,Germany,True,2024,a,6.03,4.07,1.60
+47322,2024-06-23,Germany,Switzerland,1.0,1.0,UEFA Euro,Frankfurt,Germany,False,2024,a,6.44,3.94,1.59
+47323,2024-06-23,Scotland,Hungary,0.0,1.0,UEFA Euro,Stuttgart,Germany,True,2024,d,2.31,4.02,2.78
+47326,2024-06-24,Albania,Spain,0.0,1.0,UEFA Euro,Düsseldorf,Germany,True,2024,a,8.47,4.86,1.40
+47327,2024-06-24,Croatia,Italy,1.0,1.0,UEFA Euro,Leipzig,Germany,True,2024,h,3.06,3.09,2.59
+47330,2024-06-25,England,Slovenia,0.0,0.0,UEFA Euro,Cologne,Germany,True,2024,h,1.31,5.34,11.03
+47331,2024-06-25,Denmark,Serbia,0.0,0.0,UEFA Euro,Munich,Germany,True,2024,d,2.30,3.26,3.38
+47332,2024-06-25,Netherlands,Austria,2.0,3.0,UEFA Euro,Berlin,Germany,True,2024,h,1.81,3.55,4.92
+47333,2024-06-25,France,Poland,1.0,1.0,UEFA Euro,Dortmund,Germany,True,2024,h,1.29,6.06,10.66
+47336,2024-06-26,Slovakia,Romania,1.0,1.0,UEFA Euro,Frankfurt,Germany,True,2024,d,2.292,2.13,4.26
+47337,2024-06-26,Ukraine,Belgium,0.0,0.0,UEFA Euro,Stuttgart,Germany,True,2024,a,5.73,4.11,1.61
+47338,2024-06-26,Georgia,Portugal,2.0,0.0,UEFA Euro,Gelsenkirchen,Germany,True,2024,a,9.10,5.16,1.36
+47339,2024-06-26,Czech Republic,Turkey,1.0,2.0,UEFA Euro,Hamburg,Germany,True,2024,d,2.55,3.31,2.89
+47348,2024-06-29,Switzerland,Italy,2.0,0.0,UEFA Euro,Berlin,Germany,True,2024,d,3.36,2.88,2.60
+47349,2024-06-29,Germany,Denmark,2.0,0.0,UEFA Euro,Dortmund,Germany,False,2024,h,1.64,3.92,6.00
+47352,2024-06-30,England,Slovakia,2.0,1.0,UEFA Euro,Gelsenkirchen,Germany,True,2024,d,1.45,4.23,9.01
+47353,2024-06-30,Spain,Georgia,4.0,1.0,UEFA Euro,Cologne,Germany,True,2024,h,1.21,7.18,15.06
+47358,2024-07-01,France,Belgium,1.0,0.0,UEFA Euro,Düsseldorf,Germany,True,2024,h,2.06,3.28,4.15
+47359,2024-07-01,Portugal,Slovenia,0.0,0.0,UEFA Euro,Frankfurt,Germany,True,2024,d,1.37,5.10,9.58
+47362,2024-07-02,Romania,Netherlands,0.0,3.0,UEFA Euro,Munich,Germany,True,2024,a,8.05,4.65,1.44
+47363,2024-07-02,Austria,Turkey,1.0,2.0,UEFA Euro,Leipzig,Germany,True,2024,h,1.98,3.37,4.36
+47367,2024-07-05,Germany,Spain,1.0,2.0,UEFA Euro,Stuttgart,Germany,False,2024,d,2.69,3.23,2.88
+47368,2024-07-05,Portugal,France,0.0,0.0,UEFA Euro,Hamburg,Germany,True,2024,a,3.45,3.00,2.45
+47370,2024-07-06,England,Switzerland,0.0,0.0,UEFA Euro,Düsseldorf,Germany,True,2024,a,2.25,2.93,4.09
+47371,2024-07-06,Netherlands,Turkey,2.0,1.0,UEFA Euro,Berlin,Germany,True,2024,h,1.63,4.00,5.99
+47374,2024-07-09,Spain,France,,,UEFA Euro,Munich,Germany,True,2024,h,2.72,2.86,3.18
+47376,2024-07-10,Netherlands,England,1.0,2.0,UEFA Euro,Dortmund,Germany,True,2024,h,3.29,2.85,2.66
+47379,2024-07-14,Spain,England,,,UEFA Euro,Berlin,Germany,True,2024,,,,
