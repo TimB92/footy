@@ -11,7 +11,7 @@ class ModelResult:
     trace: dict
 
 
-def train(train_data: TeamData, mappings: Mappings):
+def train(train_data: TeamData, mappings: Mappings) -> ModelResult:
     n_tournaments = len(mappings.tournament.keys())
     n_years = len(mappings.year.keys())
     n_teams = len(mappings.team.keys())

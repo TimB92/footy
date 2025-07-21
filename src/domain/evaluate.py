@@ -5,7 +5,7 @@ from scipy.stats import poisson
 from domain.preprocess import TeamData
 
 
-def predict(trace: dict, test_data: TeamData):
+def predict(trace: dict, test_data: TeamData) -> pd.DataFrame:
     skills = trace.posterior["skill"].mean(dim=["chain", "draw"])
     baseline = trace.posterior["baseline"].mean().item()
     tournament_eff = trace.posterior["tournament_eff"].mean(dim=["chain", "draw"])
